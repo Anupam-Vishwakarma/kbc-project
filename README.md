@@ -25,4 +25,31 @@ This is a full-stack web-based quiz game inspired by "Kaun Banega Crorepati (KBC
 ---
 
 ## 📂 Folder Structure
+kbc/ ├── frontend/ # React frontend ├── backend/ # FastAPI backend └── README.md
+
+---
+
+## ⚙️ How to Run the Project
+
+### ▶️ 1. Start FastAPI Backend
+
+```bash
+cd backend
+uvicorn app.main:app --reload
+
+▶️ 2. Start React Frontend
+cd frontend
+npm install  # only once
+npm start
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+📃 License
+This project is open-source and free to use.
+
+🙋‍♂️ Developed By
+Anupam Vishwakarma
+Final Year B.Tech CSE Student | Aspiring Developer | Passionate about Full Stack and Data Science
+📍 Kamla Nehru Institute of Physical and Social Sciences
+📫 krishnaanupam56@gmail.com
 
