@@ -1,0 +1,87 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #1e3d58;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  color: #2c3e50;
+}
+
+.landing-page, .rules-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #1e3d58;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d253f;
+}
+
+.timer-bar {
+  height: 10px;
+  background-color: #3498db;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: width 1s linear;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #3498db;
+  color: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #2980b9;
+}
+
+.prize-amount {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.prize-popup {
+  transform: scale(1.2);
+}
+
+.lifelines {
+  margin-top: 20px;
+}
